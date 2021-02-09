@@ -72,6 +72,14 @@ python3 outputs/plot.py -f outputs/2way-single-intersection/a3c
 ```
 ![alt text](https://github.com/LucasAlegre/sumo-rl/blob/master/outputs/result.png)
 
+## Run with Docker:
+Just start the docker container first and then run your experiment a usual.
+
+```
+./docker.sh
+python3 experiments/dqn_2way-single-intersection.py
+```
+
 ## Citation
 If you use this repository in your research, please cite:
 ```
